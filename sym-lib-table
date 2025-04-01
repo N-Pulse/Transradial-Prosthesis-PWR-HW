@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1933325")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/1933325/KiCad/1933325.kicad_sym")(options "")(descr ""))
+  (lib (name "1933189")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/1933189/KiCad/1933189.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW04021K24FKED")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/CRCW04021K24FKED/KiCad/CRCW04021K24FKED.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW04022K37FKED")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/CRCW04022K37FKED/KiCad/CRCW04022K37FKED.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW04022K49FKED")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/CRCW04022K49FKED/KiCad/CRCW04022K49FKED.kicad_sym")(options "")(descr ""))
+  (lib (name "20SVPF56MX")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/20SVPF56MX/KiCad/20SVPF56MX.kicad_sym")(options "")(descr ""))
+  (lib (name "SER1360-272KLD")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/SER1360-272KLD/KiCad/SER1360-272KLD.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW04021R00FKED")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/CRCW04021R00FKED/KiCad/CRCW04021R00FKED.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM31CR71H475KA12L")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/GRM31CR71H475KA12L/KiCad/GRM31CR71H475KA12L.kicad_sym")(options "")(descr ""))
+)

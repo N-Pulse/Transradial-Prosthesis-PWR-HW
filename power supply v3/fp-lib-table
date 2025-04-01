@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprint comparateur")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/power board component/footprints/footprint comparateur.pretty")(options "")(descr ""))
+)
