@@ -187,7 +187,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        2.0,
+        2.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -499,7 +501,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "gerber files/",
       "pos_files": "",
       "specctra_dsn": "",

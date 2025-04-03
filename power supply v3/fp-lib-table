@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "footprint comparateur")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/power board component/footprints/footprint comparateur.pretty")(options "")(descr ""))
+  (lib (name "footprint resistor")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/power board component/footprints/footprint resistor.pretty")(options "")(descr ""))
+  (lib (name "power board component")(type "KiCad")(uri "C:/Users/johan/Documents/EPFL étude/N-pulse/power board component.pretty")(options "")(descr ""))
+  (lib (name "composant speciaux")(type "KiCad")(uri "${KIPRJMOD}/composant speciaux.pretty")(options "")(descr ""))
 )

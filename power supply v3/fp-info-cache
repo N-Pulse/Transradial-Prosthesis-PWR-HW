@@ -1,4 +1,4 @@
-24737349372586991
+24749555127189941
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99511,6 +99511,48 @@ Varistor VF
 0
 2
 2
+composant speciaux
+16SVF82M
+B6
+Capacitor Polarised
+0
+2
+2
+composant speciaux
+1933189
+1933189
+Connector
+0
+2
+2
+composant speciaux
+INDC3030X200N
+74438336047
+Inductor
+0
+2
+2
+composant speciaux
+RGY0020B
+RGY0020B
+Integrated Circuit
+0
+21
+21
+composant speciaux
+SER1360272KLD
+SER1360-272KLD-2
+Inductor
+0
+3
+3
+composant speciaux
+SOT95P280X145-6N
+DBV (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
 footprint comparateur
 SOT95P280X145-5N
 DBV0005A
@@ -99518,3 +99560,10 @@ Integrated Circuit
 0
 5
 5
+footprint resistor
+RESC5025X70N
+2010 (5025 Metric)_2024-1
+Resistor
+0
+2
+2

@@ -7818,6 +7818,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -7921,8 +8171,8 @@
 		)
 	)
 	(rectangle
-		(start 45.72 13.97)
-		(end 200.66 67.31)
+		(start 46.99 13.97)
+		(end 201.93 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -8032,7 +8282,7 @@
 		)
 		(uuid "a8ae7e61-5212-4280-bcc4-2f77b2c18c7a")
 	)
-	(text "faire en sorte que le rapport soit respecter (1/6)\navec un courant faible qui passe en sortie (5,6 mA)"
+	(text "faire en sorte que le rapport soit respecter (1/2)\navec un courant faible qui passe en sortie (5,6 mA)"
 		(exclude_from_sim no)
 		(at 254.254 25.908 0)
 		(effects
@@ -8088,12 +8338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17add567-945e-421d-9f0d-65fe86325720")
-	)
-	(junction
-		(at 256.54 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bd325d2-05ff-4252-a58e-728a52ad339f")
 	)
 	(junction
 		(at 161.29 24.13)
@@ -8208,6 +8452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e5f0142-0c8c-47bc-87de-9b5ccbad877e")
+	)
+	(junction
+		(at 185.42 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "617f3f37-40f3-4830-aa6a-1105ab50e9ca")
 	)
 	(junction
 		(at 163.83 105.41)
@@ -8348,6 +8598,12 @@
 		(uuid "cac63f16-75ca-4d34-af65-0f134eaf2bb7")
 	)
 	(junction
+		(at 45.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caffe169-8e35-4255-867b-e52d359210da")
+	)
+	(junction
 		(at 55.88 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8418,12 +8674,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b28ec2-644a-4e73-a9a6-8718de60a6b5")
-	)
-	(junction
-		(at 27.94 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f704ab7d-3e05-4c30-b2d0-9db2d97c6fca")
 	)
 	(junction
 		(at 170.18 63.5)
@@ -8528,6 +8778,16 @@
 			(type default)
 		)
 		(uuid "05ea7928-0316-4536-bf08-eeb9b9d4a1a7")
+	)
+	(wire
+		(pts
+			(xy 185.42 21.59) (xy 185.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a971bf9-44ac-469f-82e8-b9da6da57360")
 	)
 	(wire
 		(pts
@@ -8698,16 +8958,6 @@
 			(type default)
 		)
 		(uuid "1f4a623b-69cd-4bbd-bce1-677f4a87fdb2")
-	)
-	(wire
-		(pts
-			(xy 256.54 92.71) (xy 256.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2056c451-ed6e-4116-ae00-de5d79c13fb4")
 	)
 	(wire
 		(pts
@@ -8951,16 +9201,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 50.8) (xy 27.94 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b5addf9-379b-46b1-a158-12bb2344ee3f")
-	)
-	(wire
-		(pts
 			(xy 118.11 50.8) (xy 132.08 50.8)
 		)
 		(stroke
@@ -8968,6 +9208,16 @@
 			(type default)
 		)
 		(uuid "4f830135-bec7-47d9-a1a4-49c7f4a44562")
+	)
+	(wire
+		(pts
+			(xy 185.42 24.13) (xy 189.23 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c0ab72-62a6-4f38-9c7e-b545b0b054da")
 	)
 	(wire
 		(pts
@@ -9041,16 +9291,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 96.52) (xy 267.97 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5575ab-f766-4f65-95f0-36eba04d8976")
-	)
-	(wire
-		(pts
 			(xy 118.11 33.02) (xy 111.76 33.02)
 		)
 		(stroke
@@ -9111,7 +9351,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 45.72 50.8)
+			(xy 45.72 25.4) (xy 45.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9368,6 +9608,16 @@
 			(type default)
 		)
 		(uuid "8925d097-e572-4098-973b-91ca6061182d")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 45.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8de2cc-b8ae-4ce1-8ce9-8c25f298c877")
 	)
 	(wire
 		(pts
@@ -9651,7 +9901,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 96.52) (xy 256.54 96.52)
+			(xy 251.46 96.52) (xy 267.97 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10081,7 +10331,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 24.13) (xy 189.23 24.13)
+			(xy 184.15 24.13) (xy 185.42 24.13)
 		)
 		(stroke
 			(width 0)
@@ -10179,51 +10429,7 @@
 		)
 		(uuid "fe87d550-57a3-422e-97fe-3d2127365fc7")
 	)
-	(global_label "12V"
-		(shape input)
-		(at 275.59 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32e49ddf-20d5-493c-8aa0-861aee178436")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.0828 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "battery input"
-		(shape output)
-		(at 27.94 43.18 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "360e53a1-9c9f-4112-bb8a-9be61b001309")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 27.8579 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "2v"
+	(global_label "2.5v"
 		(shape passive)
 		(at 234.95 17.78 90)
 		(fields_autoplaced yes)
@@ -10235,7 +10441,7 @@
 		)
 		(uuid "636cb75b-1001-46d5-8a16-1f83452b21e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 13.729 90)
+			(at 234.95 11.9147 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,29 +10451,7 @@
 			)
 		)
 	)
-	(global_label "battery input"
-		(shape input)
-		(at 232.41 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8eb743ba-2072-4947-b605-bfa1f1b62e3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.0879 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12v"
+	(global_label "5v"
 		(shape passive)
 		(at 228.6 34.29 180)
 		(fields_autoplaced yes)
@@ -10279,34 +10463,12 @@
 		)
 		(uuid "b2f48452-2ba8-4a45-824d-3d593e17db0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.3395 34.29 0)
+			(at 224.549 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape output)
-		(at 256.54 92.71 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0ec0b33-1fda-4b9c-bb9e-617a92a87f5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 86.2172 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10458,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC3225X200N"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at -27.61 55.88 0)
 			(effects
 				(font
@@ -10571,7 +10733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "250 ohms"
 			(at 234.95 27.9399 0)
 			(effects
 				(font
@@ -10580,7 +10742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.632 26.67 90)
 			(effects
 				(font
@@ -10704,7 +10866,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "250 ohms"
 			(at 227.33 17.78 90)
 			(effects
 				(font
@@ -10712,7 +10874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 23.368 90)
 			(effects
 				(font
@@ -10783,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 194.31 29.21 0)
 			(effects
 				(font
@@ -10857,7 +11019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GCM155"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 196.52 0)
 			(effects
 				(font
@@ -10978,7 +11140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -31.42 135.89 0)
 			(effects
 				(font
@@ -11097,7 +11259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 129.21 0)
 			(effects
 				(font
@@ -11218,7 +11380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X80N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at -11.1 55.88 0)
 			(effects
 				(font
@@ -11468,7 +11630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC3225X270N"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at -50.47 121.92 0)
 			(effects
 				(font
@@ -11709,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.15 235.89 0)
 			(effects
 				(font
@@ -11798,6 +11960,72 @@
 			(project ""
 				(path "/227c4948-9b5e-42be-82b5-2619f1ed7477"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 275.59 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c8e339e-4b88-467d-a5d0-7a733e222a0a")
+		(property "Reference" "#PWR011"
+			(at 271.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acce98d-a533-4a3b-be35-e08555ab7f23")
+		)
+		(instances
+			(project ""
+				(path "/227c4948-9b5e-42be-82b5-2619f1ed7477"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12015,7 +12243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 223.19 0)
 			(effects
 				(font
@@ -12136,7 +12364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 23.19 0)
 			(effects
 				(font
@@ -12265,7 +12493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.64 156.21 0)
 			(effects
 				(font
@@ -12385,7 +12613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 242.57 21.59 0)
 			(effects
 				(font
@@ -12586,6 +12814,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 232.41 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e10e563-5955-4ccc-aea2-ec461776e56c")
+		(property "Reference" "#PWR013"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 228.6 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65dd7343-ea5f-46b9-9e8d-4a62fa2fe25d")
+		)
+		(instances
+			(project ""
+				(path "/227c4948-9b5e-42be-82b5-2619f1ed7477"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 45.72 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fc3fa8a-837f-4c8b-b7b4-a48574288817")
+		(property "Reference" "#PWR014"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 45.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "581bc06b-305a-4e53-810d-e2af17ce68f2")
+		)
+		(instances
+			(project ""
+				(path "/227c4948-9b5e-42be-82b5-2619f1ed7477"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 22.86 185.42 0)
 		(unit 1)
@@ -12741,7 +13102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 65.1 39.37 0)
 			(effects
 				(font
@@ -12863,7 +13224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.06 115.57 0)
 			(effects
 				(font
@@ -12985,7 +13346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at -41.58 129.54 0)
 			(effects
 				(font
@@ -13097,7 +13458,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50 ohms"
 			(at 250.19 17.78 90)
 			(effects
 				(font
@@ -13105,7 +13466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.19 23.368 90)
 			(effects
 				(font
@@ -13175,7 +13536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 261.3152 49.53 0)
 			(effects
 				(font
@@ -13245,7 +13606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.99 39.37 0)
 			(effects
 				(font
@@ -13544,7 +13905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.49 123.19 0)
 			(effects
 				(font
@@ -13666,7 +14027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at -17.45 135.89 0)
 			(effects
 				(font
@@ -13786,7 +14147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM3225X240N"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 74.93 121.59 0)
 			(effects
 				(font
@@ -13908,7 +14269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -41.58 102.87 0)
 			(effects
 				(font
@@ -14030,7 +14391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -27.61 43.18 0)
 			(effects
 				(font
@@ -14283,7 +14644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM18x"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at -6.02 59.69 0)
 			(effects
 				(font
@@ -14378,6 +14739,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 185.42 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1e055f9-5dd0-40f9-91eb-f8fc7b5d1892")
+		(property "Reference" "#PWR012"
+			(at 181.61 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 185.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e55bee-f3c3-4c2c-b7d6-219c8ecda822")
+		)
+		(instances
+			(project "pwrv3"
+				(path "/227c4948-9b5e-42be-82b5-2619f1ed7477"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GRM31CR71H475KA12L:GRM31CR71H475KA12L")
 		(at 55.88 40.64 270)
 		(unit 1)
@@ -14404,7 +14831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC3216X180N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at -40.31 49.53 0)
 			(effects
 				(font
@@ -14649,7 +15076,8 @@
 	)
 	(symbol
 		(lib_id "1933189:1933189")
-		(at 267.97 128.27 0)
+		(at 267.97 130.81 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14657,7 +15085,7 @@
 		(dnp no)
 		(uuid "b4445f68-f23b-4e43-85b6-9455763a8d30")
 		(property "Reference" "J1"
-			(at 277.114 121.666 0)
+			(at 277.114 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14666,7 +15094,7 @@
 			)
 		)
 		(property "Value" "1.5 mm"
-			(at 274.32 124.206 0)
+			(at 274.32 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14675,7 +15103,7 @@
 			)
 		)
 		(property "Footprint" "1933189"
-			(at 284.48 223.19 0)
+			(at 284.48 35.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,7 +15113,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1933189/pdf"
-			(at 284.48 323.19 0)
+			(at 284.48 -64.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14695,7 +15123,7 @@
 			)
 		)
 		(property "Description" "Pin strip, nominal cross section: 1.5 mm?, color: black, nominal current: 12 A (depends on the plug used), rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: PST 1,3/..-V, pitch: 5 mm, mounting: THR soldering, pin layout: Linear pinning, solder pin [P]: 3.5 mm, Stecksystem: COMBICON COMPACT PST 1,3, Locking: without, type of packaging: packed in cardboard, Th"
-			(at 267.97 128.27 0)
+			(at 267.97 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,7 +15132,7 @@
 			)
 		)
 		(property "Height" "9.5"
-			(at 284.48 523.19 0)
+			(at 284.48 -264.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14714,7 +15142,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1933189"
-			(at 284.48 623.19 0)
+			(at 284.48 -364.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14724,7 +15152,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1933189?qs=wdlOgCqRo4yJtNGn6%2FIahw%3D%3D"
-			(at 284.48 723.19 0)
+			(at 284.48 -464.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +15162,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 284.48 823.19 0)
+			(at 284.48 -564.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14744,7 +15172,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1933189"
-			(at 284.48 923.19 0)
+			(at 284.48 -664.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,7 +15343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.424 138.43 0)
 			(effects
 				(font
@@ -15037,7 +15465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 1.6 99.06 0)
 			(effects
 				(font
@@ -15231,7 +15659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 193.04 246.05 0)
 			(effects
 				(font
@@ -15350,7 +15778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 205.41 0)
 			(effects
 				(font
@@ -15538,7 +15966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FUSC3216X117N"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 41.91 146.99 0)
 			(effects
 				(font
@@ -15667,7 +16095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0.33 147.32 0)
 			(effects
 				(font
@@ -15786,7 +16214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.93 235.89 0)
 			(effects
 				(font
@@ -15908,7 +16336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.49 110.49 0)
 			(effects
 				(font
@@ -16293,7 +16721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.2052 49.53 0)
 			(effects
 				(font
@@ -16492,7 +16920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 1.6 86.36 0)
 			(effects
 				(font
@@ -16614,7 +17042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.05 57.15 0)
 			(effects
 				(font
@@ -16735,7 +17163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.05 38.1 0)
 			(effects
 				(font
