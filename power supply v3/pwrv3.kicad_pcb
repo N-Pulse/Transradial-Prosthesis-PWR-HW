@@ -15706,6 +15706,32 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Julien"
+		(at 197.04 110.54 0)
+		(layer "B.SilkS")
+		(uuid "c899ae53-9200-4465-b039-edd1c383dc12")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Ambre"
+		(at 192.89 110.54 0)
+		(layer "B.SilkS")
+		(uuid "f2eeb985-1b8f-4986-a6ac-7391e564028a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
