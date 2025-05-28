@@ -11066,13 +11066,12 @@
 				)
 			)
 		)
-		(property "Value" "GCM1555C1H100FA16D"
-			(at 194.564 128.27 0)
+		(property "Value" "0.1uF"
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -12227,7 +12226,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22.1k"
 			(at 233.68 49.5299 0)
 			(effects
 				(font
@@ -12890,7 +12889,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "30.9k"
 			(at 227.33 40.64 90)
 			(effects
 				(font
@@ -13540,7 +13539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at -41.58 129.54 0)
 			(effects
 				(font
@@ -16980,7 +16979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 270.2052 49.53 0)
 			(effects
 				(font
